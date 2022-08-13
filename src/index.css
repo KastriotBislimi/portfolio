@@ -20,9 +20,14 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
   --transition: all 400ms ease;
+  --toastify-color-light: var(--color-bg-variant);
+  --toastify-text-color-light: #fff;
+  --toastify-color-progress-light: #fff;
+  --toastify-icon-color-success: #fff;
+  --toastify-color-progress-success: #fff;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {
@@ -55,7 +60,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  /* height: 100vh; */
 }
 
 section > h2,
@@ -110,6 +114,7 @@ img {
   .container {
     width: var(--container-width-md);
   }
+
   section {
     margin-top: 6rem;
   }

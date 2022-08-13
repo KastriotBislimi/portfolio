@@ -11,13 +11,11 @@ const Portfolio = () => {
         <article className="porfolio__item">
           <div className="portfolio__item-image">
             <img src={Foto1} alt="foto" />
-            <h3>Portfolio Item Titile</h3>
+            <h3>My Portfolio</h3>
+            <p>the corrent site</p>
             <div className="portfolio__item-cta">
               <a href="https://www.github.com" className="btn">
                 Github
-              </a>
-              <a href="https://www.github.com/1" className="btn btn-primary">
-                Live Demo
               </a>
             </div>
           </div>

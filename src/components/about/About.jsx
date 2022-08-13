@@ -1,7 +1,6 @@
 import "./about.css";
-import Me from "../../assets/me.png";
+import Me from "../../assets/me2.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { TbFolders } from "react-icons/tb";
 
 function About() {
@@ -24,22 +23,16 @@ function About() {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>clients</h5>
-              <small>300+</small>
-            </article>
-
-            <article className="about__card">
               <TbFolders className="about__icon" />
               <h5>Projects</h5>
               <small>3+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            iste dignissimos minima quibusdam dolorum, magnam itaque modi
-            nostrum mollitia consectetur consequuntur distinctio aliquid?
-            Voluptatem quos repudiandae quia tenetur distinctio dolores?
+            I'm a Junior Front End Developer with a knack for JS and and a
+            hidden love for Back End. Ever since my early childhood, I've been a
+            gamer and a tech junkie by heart. So, me being a programmer isn't a
+            coincidence. It's the result of letting my love for tech shape me.
           </p>
           <a href="#contact" className="btn btn-primary">
             {" "}
