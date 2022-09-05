@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and(max-width:600px) {
+@media screen and(max-width: 600px) {
   .experience__container {
     gap: 1rem;
   }
@@ -60,5 +60,15 @@
   .experince__backend {
     width: 100%;
     padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experince__frontend,
+  .experince__backend {
+    padding: 1rem;
   }
 }

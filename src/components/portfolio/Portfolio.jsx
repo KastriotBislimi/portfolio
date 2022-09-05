@@ -1,5 +1,5 @@
 import "./portfolio.css";
-import Foto1 from "../../assets/K.jpg";
+import PortfolioDetails from "./PortfolioDetails";
 
 const Portfolio = () => {
   return (
@@ -8,46 +8,26 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="porfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Foto1} alt="foto" />
-            <h3>My Portfolio</h3>
-            <p>the corrent site</p>
-            <div className="portfolio__item-cta">
-              <a href="https://www.github.com" className="btn">
-                Github
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="porfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Foto1} alt="foto" />
-            <h3>Portfolio Item Titile</h3>
-            <div className="portfolio__item-cta">
-              <a href="https://www.github.com" className="btn">
-                Github
-              </a>
-              <a href="https://www.github.com/1" className="btn btn-primary">
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="porfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Foto1} alt="foto" />
-            <h3>Portfolio Item Titile</h3>
-            <div className="portfolio__item-cta">
-              <a href="https://www.github.com" className="btn">
-                Github
-              </a>
-              <a href="https://www.github.com/1" className="btn btn-primary">
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
+        <PortfolioDetails
+          title="My Portfolio"
+          libraries={["react-js", "mail-js", "react-toastify", "react-icons"]}
+          details="The current website you are visiting. Made without a CSS library such as bootstrap, fully responsive and ineractive. The contact form was made using MailJS."
+          link="https://github.com/KastriotBislimi/portfolio"
+        />
+        <PortfolioDetails
+          title="Ai Project"
+          libraries={["react-js"]}
+          details="A static website built to purely challenge my responsive webdesign skills with a color pattern prefering gradients."
+          link="https://github.com/KastriotBislimi/AiProject"
+          liveLink="https://preeminent-frangipane-ca8887.netlify.app/"
+        />
+        <PortfolioDetails
+          title="Youtube Clone"
+          libraries={["react-js", "material ui", "axios"]}
+          details="I cloned Youtube by utilizing axios,MUI and ReactPlayer. This challenged and honed my ReactJS skillset."
+          link="https://github.com/KastriotBislimi/cloneyoutube"
+          liveLink="https://delicate-naiad-51850a.netlify.app/"
+        />
       </div>
     </section>
   );

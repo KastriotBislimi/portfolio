@@ -46,7 +46,7 @@ const Contact = () => {
             <a
               href="mailto:k.bislimi96@gmail.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Send a message
             </a>
@@ -58,7 +58,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=+38345641938"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Send a message
             </a>

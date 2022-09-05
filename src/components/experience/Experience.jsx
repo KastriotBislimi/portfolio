@@ -13,32 +13,32 @@ function Experience() {
             <article className="experince__details">
               <BsPatchCheck />
               <h4>HTML</h4>
-              <small className="text-light">Experience</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experince__details">
               <BsPatchCheck />
               <h4>CSS</h4>
-              <small className="text-light">Experience</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experince__details">
               <BsPatchCheck />
               <h4>JavasScript</h4>
-              <small className="text-light">Experience</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experince__details">
               <BsPatchCheck />
               <h4>Bootstrap</h4>
-              <small className="text-light">Experience</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experince__details">
               <BsPatchCheck />
               <h4>Tailwind</h4>
-              <small className="text-light">Intermident</small>
+              <small className="text-light">Intermediate</small>
             </article>
             <article className="experince__details">
               <BsPatchCheck />
               <h4>React</h4>
-              <small className="text-light">Intermident</small>
+              <small className="text-light">Intermediate</small>
             </article>
           </div>
         </div>
